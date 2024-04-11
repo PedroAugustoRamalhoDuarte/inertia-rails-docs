@@ -1,7 +1,5 @@
 # Client-side setup
 
-Before starting, you need to choose
-
 ## Install dependencies
 
 First, install the Inertia client-side adapter corresponding to your framework of choice.
@@ -27,8 +25,8 @@ $ yarn add @inertiajs/svelte
 Next, update your main JavaScript file to boot your Inertia app. To accomplish this, we'll initialize the client-side
 framework with the base Inertia component.
 
-Place the above content in your `app/frontend/entrypoints/inertia.jsx`. And after that import this file inside
-application.js
+Place the below content in your `app/frontend/entrypoints/inertia.jsx`. And after that import this file inside
+`application.js`
 
 ::: code-group
 

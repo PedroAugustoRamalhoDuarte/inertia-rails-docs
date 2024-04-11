@@ -16,6 +16,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Introduction',
+        link: '/introduction'
+      },
+      {
         text: 'Installation',
         items: [
           { text: 'Server-side', link: '/installation/server-side' },
@@ -24,7 +28,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/PedroAugustoRamalhoDuarte/inertia-rails-docs' }
     ]
   }
 })

@@ -15,8 +15,8 @@ Then run `bundle install`
 When we are using modern front-end framework we need to use a bundler to compile our assets. There are two main ways to
 do this with the current state of RubyOnRails:
 
-- Using vite_ruby (Recommend)
-- Using jsbundling-rails
+- Using `vite_ruby` (Recommend)
+- Using `jsbundling-rails`
 
 ### Using vite_ruby
 
@@ -24,10 +24,11 @@ do this with the current state of RubyOnRails:
 gem "vite_rails"
 ```
 
-Then run `bundle install`
+- Then run `bundle install`
+- Run `bundle exec vite install`
 
-#### Setup
+> For more information for `vite_ruby` visit [vite_ruby](https://vite-ruby.netlify.app/guide/#getting-started)
 
-Run bundle exec vite install
 
-For more information for vite_ruby visit [vite_ruby](https://vite-ruby.netlify.app/guide/#getting-started)
+
+
