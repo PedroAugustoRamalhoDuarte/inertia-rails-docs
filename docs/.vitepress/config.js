@@ -13,14 +13,13 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Installation',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Server-side', link: '/installation/server-side' },
+          { text: 'Client-side', link: '/installation/client-side' }
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
