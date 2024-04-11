@@ -3,23 +3,29 @@
 layout: home
 
 hero:
-  name: "Inertia Rails Docs"
-  text: "How to use Inertia with Rails"
-  tagline: My great project tagline
+  name: "Inertia Rails"
+  text: "Documentation"
+  tagline: Build single-page apps, without building an API.
+  image:
+    src: ../images/inertia_rails_logo.svg
+    alt: Inertia Rails Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /installation/server-side
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Introduction
+      link: /introduction
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: DRY
+    icon: 📝
+    details: Make your server the brain for your web app.
+  - title: SPA & DX
+    icon: 🚀
+    details: The experience of SPA with the productivity of server-side rendering.
+  - title: Not a Framework
+    icon: 🔌
+    details: Isn't a framework, nor is it a replacement for your existing server-side or client-side frameworks. Think of Inertia as glue that connects the two.
 ---
 

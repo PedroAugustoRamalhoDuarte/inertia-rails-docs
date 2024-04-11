@@ -2,13 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Inertia Rails Docs",
+  title: "Inertia Rails",
   description: "How to use Inertia with Rails",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Installation', link: '/installation/server-side' }
     ],
 
     sidebar: [
