@@ -25,6 +25,12 @@ export default defineConfig({
           { text: 'Server-side', link: '/installation/server-side' },
           { text: 'Client-side', link: '/installation/client-side' }
         ]
+      },
+      {
+        text: 'The basics',
+        items: [
+          { text: 'Response', link: '/the-basics/responses' },
+        ]
       }
     ],
     socialLinks: [
