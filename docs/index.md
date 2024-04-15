@@ -7,7 +7,7 @@ hero:
   text: "Documentation"
   tagline: Build single-page apps, without building an API.
   image:
-    src: ../images/inertia_rails_logo.svg
+    src: /inertia_rails_logo.svg
     alt: Inertia Rails Logo
   actions:
     - theme: brand
