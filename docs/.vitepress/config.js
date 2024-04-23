@@ -30,6 +30,7 @@ export default defineConfig({
         text: 'The basics',
         items: [
           { text: 'Response', link: '/the-basics/responses' },
+          { text: 'Shared Data', link: '/the-basics/shared-data' },
         ]
       }
     ],
