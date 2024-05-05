@@ -29,9 +29,10 @@ export default defineConfig({
       {
         text: 'The basics',
         items: [
+          { text: 'Pages', link: '/the-basics/pages' },
           { text: 'Response', link: '/the-basics/responses' },
-          { text: 'Routing', link: '/the-basics/routing' },
           { text: 'Redirects', link: '/the-basics/redirects' },
+          { text: 'Routing', link: '/the-basics/routing' },
           { text: 'Shared Data', link: '/the-basics/shared-data' },
         ]
       }
